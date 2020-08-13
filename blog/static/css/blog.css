@@ -1,30 +1,57 @@
 h1 a, h2 a {
-    color: #02DB1A;
-    font-family: 'Lobster';
+    color: antiquewhite;
+    font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
 }
 
 body {
     padding-left: 15px;
+    background-color: #222222;
+    color: navajowhite;
 }
 
 .page-header {
-    background-color: #C25100;
-    margin-top: 0;
-    padding: 20px 20px 20px 40px;
+    background-color: antiquewhite;
+    background-position: center;
+    border-bottom-color: black;
+    margin-top: 10px;
+    margin-right: 10px;
+    /*background-blend-mode: luminosity;*/
+    background-image: url("https://intranet.birmingham.ac.uk/staff/images/brand/download/Aston-Webb.jpg");
+    height: 350px;
+    padding: 190px 20px 0px 0px;
+    background-size: cover;
 }
 
-.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #ffffff;
-    font-size: 36pt;
+.page-header h1 {
+    color: black;
+    line-height: 1.35;
+    background-color: rgba(250,235,215,0.5);
+    margin-left: 20px;
+    height: 130px;
+    padding-top: 40px;
+    border-radius: 25px;
+    font-size: 60pt;
     text-decoration: none;
+    text-align: center;
+}
+
+.page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: black;
+    line-height: 0.8;
+    margin-left: 20px;
+    border-radius: 25px;
+    font-size: 55pt;
+    text-decoration: none;
+    text-align: center;
 }
 
 .content {
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+    font-size: 30pt;
 }
 
 .date {
@@ -48,8 +75,9 @@ h1, h2, h3, h4 {
 
 .post {
     margin-bottom: 70px;
+    font-size: 14pt;
 }
 
 .post h2 a, .post h2 a:visited {
-    color: #000000;
+    color: wheat;
 }
